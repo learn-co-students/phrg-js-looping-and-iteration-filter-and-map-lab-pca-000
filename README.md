@@ -12,6 +12,10 @@ You'll be writing four functions:
 * `exactMatch()` - This function takes an array of `driver` objects as the first argument and a JavaScript object that specifies an attribute and corresponding value. For example, `exactMatch(drivers, { revenue: 3000 })` will return all drivers whose `revenue` attribute equals `3000`, and `exactMatch(drivers, { name: 'Bob' })` will return all drivers whose `name` attribute equals `Bob`.
 * `exactMatchToList()` - This function works the same way as the `exactMatch()` function, except that instead of returning an array of `driver` objects, it returns an array of strings with each element in the array corresponding to the matching driver's name. For example, `exactMatchToList(drivers, { revenue: 2000 })` will return `['Sammy']`, as `Sammy` is the name of the matching `driver` object.
 
+## Does this need an update?
+
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-js-looping-and-iteration-filter-and-map-lab/issues) or [pull-reqeust](https://github.com/learn-co-curriculum/phrg-js-looping-and-iteration-filter-and-map-lab/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-reqeust, and send them a link via Connect.
+
 ## Resources
 - [MDN: Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [MDN: Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
